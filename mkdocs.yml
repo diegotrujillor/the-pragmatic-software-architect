@@ -49,3 +49,9 @@ nav:
       - Aggregates: volume-02-ddd/02-aggregates.md
       - Bounded Contexts: volume-02-ddd/03-bounded-contexts.md
       - Domain Events: volume-02-ddd/04-domain-events.md
+  - Volumen 3 - Design Patterns:
+      - Introducción: volume-03-design-patterns/00-introduccion.md
+      - Strategy y Factory Method: volume-03-design-patterns/01-creacionales-strategy-factory.md
+      - "Estructurales: Decorator, Adapter, Facade": volume-03-design-patterns/02-estructurales-decorator-adapter-facade.md
+      - "Comportamiento: Command, Template Method": volume-03-design-patterns/03-comportamiento-command-template-method.md
+      - La cadena de sinónimos: volume-03-design-patterns/04-la-cadena-de-sinonimos.md

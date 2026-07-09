@@ -14,7 +14,11 @@
 - [04. Domain Events](volumes/volume-02-ddd/04-domain-events.md)
 
 ## Volumen 3 — Design Patterns
-- (pendiente)
+- [00. Introducción](volumes/volume-03-design-patterns/00-introduccion.md)
+- [01. Strategy y Factory Method](volumes/volume-03-design-patterns/01-creacionales-strategy-factory.md)
+- [02. Estructurales: Decorator, Adapter, Facade](volumes/volume-03-design-patterns/02-estructurales-decorator-adapter-facade.md)
+- [03. Comportamiento: Command, Template Method](volumes/volume-03-design-patterns/03-comportamiento-command-template-method.md)
+- [04. La cadena de sinónimos](volumes/volume-03-design-patterns/04-la-cadena-de-sinonimos.md)
 
 ## Volumen 4 — Testing
 - (pendiente)
