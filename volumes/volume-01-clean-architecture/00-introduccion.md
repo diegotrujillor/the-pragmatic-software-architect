@@ -9,11 +9,12 @@ sobreingeniería? ¿Este servicio debería ser un microservicio o una carpeta
 dentro del monolito? ¿DDD aporta algo aquí o es ceremonia?
 
 Ese criterio es lo que este libro intenta construir, volumen a volumen,
-usando un solo sistema real como hilo conductor: **AgriTrace**, una
-plataforma de trazabilidad agrícola. Nada de `Order`, `Customer` o
-`BankAccount` genéricos — cada ejemplo se aterriza en `Farmer`, `Farm`,
-`Crop`, `Harvest`, `Shipment`. Si el ejemplo no sirve para decidir algo real
-en ese dominio, no entra al libro.
+usando un solo sistema ficticio como hilo conductor: **ParcelFlow**, una
+plataforma de seguimiento de pedidos y envíos. Nada de ejemplos que cambian
+de nombre cada dos páginas — cada capítulo aterriza la idea en las mismas
+cinco entidades: `Merchant`, `Warehouse`, `Order`, `Package`, `Delivery`. Si
+el ejemplo no sirve para decidir algo real en ese dominio, no entra al
+libro.
 
 ## Cómo leer cada capítulo
 
@@ -37,7 +38,7 @@ incluye:
 - **🤖 Cómo cambió la IA este concepto** — qué dejó de ser valioso memorizar
   y qué se volvió más importante decidir, ahora que un asistente como Claude
   Code escribe el boilerplate en segundos.
-- **Caso real (AgriTrace)** — la idea aplicada al dominio del libro.
+- **Caso real (ParcelFlow)** — la idea aplicada al dominio del libro.
 - **Errores que cometí (o cometería) si empezara otra vez** — honestidad
   sobre sobre-ingeniería, no solo sobre lo que salió bien.
 
@@ -53,10 +54,9 @@ proveedor cloud — arrastra ese error a cada decisión posterior.
 Este volumen no es un resumen de *Clean Architecture* (Robert C. Martin,
 Pearson) — ver [`REFERENCES.md`](../../REFERENCES.md). Es esa idea, filtrada
 por diez años de verla funcionar y fallar en proyectos reales, y aterrizada
-en un sistema que existe: AgriTrace corriendo en un stack Node/Express/PG,
-con restricciones reales de presupuesto (`$0/mo` de infraestructura) y de
-independencia de proveedor — los mismos principios de ingeniería que rigen
-ese proyecto en producción.
+en ParcelFlow, un stack Node/Express/PG típico, con restricciones realistas
+de presupuesto reducido y de independencia de proveedor — las mismas
+presiones que enfrenta cualquier equipo pequeño en producción.
 
 ## ❌ Mitos
 
@@ -86,15 +86,15 @@ generarlas sin necesitarlas es mayor, no menor. El trabajo humano se movió de
 "escribir la abstracción" a "decidir si esta abstracción se gana su lugar".
 Ese es exactamente el criterio que este libro quiere construir.
 
-## Caso real (AgriTrace)
+## Caso real (ParcelFlow)
 
-El backend de AgriTrace expone casos de uso como "registrar una cosecha" o
-"generar certificado de trazabilidad de un envío". La regla de Clean
-Architecture aplicada ahí, en su forma más simple: el caso de uso no sabe que
-Postgres existe. No importa `pg`, no arma `SQL`, no conoce el nombre de la
-tabla. Recibe un repositorio abstracto, hace la operación de negocio, y
-delega la persistencia. Eso es lo que permite que "migrar de proveedor con
-costo acotado" (uno de los principios del proyecto) sea real y no aspiracional.
+El backend de ParcelFlow expone casos de uso como "registrar un pedido" o
+"generar guía de envío de un paquete". La regla de Clean Architecture
+aplicada ahí, en su forma más simple: el caso de uso no sabe que Postgres
+existe. No importa `pg`, no arma `SQL`, no conoce el nombre de la tabla.
+Recibe un repositorio abstracto, hace la operación de negocio, y delega la
+persistencia. Eso es lo que permite que "migrar de proveedor con costo
+acotado" sea real y no aspiracional.
 
 ## Errores que cometí (o cometería) si empezara otra vez
 

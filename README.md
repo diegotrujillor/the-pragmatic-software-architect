@@ -35,8 +35,9 @@ Secciones que ningún libro trae:
   Factory → Builder → Facade → Controller. Pasa muchísimo.
 - **🤖 Cómo cambió la IA este concepto** — antes vs. hoy (Claude Code escribe
   un Factory en segundos; lo importante ya no es escribirlo, es saber cuándo).
-- **Casos reales** — todos aterrizados en AgriTrace (Farmer → Farm → Crop →
-  Harvest → Shipment), nunca bancos ni tiendas online genéricas.
+- **Casos reales** — todos aterrizados en un mismo sistema ficticio de
+  ejemplo (Merchant → Warehouse → Order → Package → Delivery), nunca bancos
+  ni tiendas online genéricas.
 - **Errores que cometí (o cometería) si empezara otra vez** — microservicios
   prematuros, 150 interfaces innecesarias, SOLID aplicado a todo, capas desde
   el día uno.

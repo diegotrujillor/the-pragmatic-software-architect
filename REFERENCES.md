@@ -2,7 +2,7 @@
 
 Fuente primaria por volumen. Cada capítulo debe apoyarse en estos libros
 (y en documentación oficial cuando aplique) antes de traducir el concepto a
-lenguaje práctico y a casos de AgriTrace.
+lenguaje práctico y al sistema de ejemplo del libro.
 
 | Volumen | Libro | Autor | Editorial | Rol en el volumen |
 |---|---|---|---|---|
@@ -16,7 +16,8 @@ lenguaje práctico y a casos de AgriTrace.
 
 1. Extraer la idea central del libro (nivel 2 — Ingeniería).
 2. Contrastarla con cómo decidiría un senior con 10 años (nivel 3).
-3. Aterrizarla en AgriTrace: Farmer → Farm → Crop → Harvest → Shipment.
+3. Aterrizarla en el sistema de ejemplo: Merchant → Warehouse → Order →
+   Package → Delivery.
 4. Señalar dónde la IA cambió el cálculo costo/beneficio del patrón (sección
    🤖 de cada capítulo).
 

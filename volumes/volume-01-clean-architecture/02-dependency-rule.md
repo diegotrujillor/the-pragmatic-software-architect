@@ -16,6 +16,6 @@
 
 ## 🤖 Cómo cambió la IA este concepto
 
-## Caso real (AgriTrace)
+## Caso real (ParcelFlow)
 
 ## Errores que cometí (o cometería) si empezara otra vez
