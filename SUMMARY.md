@@ -21,7 +21,10 @@
 - [04. La cadena de sinónimos](volumes/volume-03-design-patterns/04-la-cadena-de-sinonimos.md)
 
 ## Volumen 4 — Testing
-- (pendiente)
+- [00. Introducción](volumes/volume-04-testing/00-introduccion.md)
+- [01. La pirámide de tests](volumes/volume-04-testing/01-piramide-de-tests.md)
+- [02. Mocks vs. Stubs](volumes/volume-04-testing/02-mocks-vs-stubs.md)
+- [03. AAA y tests legibles](volumes/volume-04-testing/03-aaa-y-tests-legibles.md)
 
 ## Volumen 5 — Microservices
 - (pendiente)

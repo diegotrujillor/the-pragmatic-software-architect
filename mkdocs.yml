@@ -55,3 +55,8 @@ nav:
       - "Estructurales: Decorator, Adapter, Facade": volume-03-design-patterns/02-estructurales-decorator-adapter-facade.md
       - "Comportamiento: Command, Template Method": volume-03-design-patterns/03-comportamiento-command-template-method.md
       - La cadena de sinónimos: volume-03-design-patterns/04-la-cadena-de-sinonimos.md
+  - Volumen 4 - Testing:
+      - Introducción: volume-04-testing/00-introduccion.md
+      - La pirámide de tests: volume-04-testing/01-piramide-de-tests.md
+      - Mocks vs. Stubs: volume-04-testing/02-mocks-vs-stubs.md
+      - AAA y tests legibles: volume-04-testing/03-aaa-y-tests-legibles.md
