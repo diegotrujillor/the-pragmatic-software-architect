@@ -49,7 +49,9 @@ Secciones que ningún libro trae:
 4. Testing
 5. Microservices
 
-Ver [`SUMMARY.md`](SUMMARY.md) para el índice detallado.
+Ver [`SUMMARY.md`](SUMMARY.md) para el índice detallado y
+[`REFERENCES.md`](REFERENCES.md) para el libro canónico detrás de cada
+volumen.
 
 ## Flujo de trabajo del proyecto
 
