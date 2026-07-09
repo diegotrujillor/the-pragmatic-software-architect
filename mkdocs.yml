@@ -43,3 +43,9 @@ nav:
       - Por qué existe: volume-01-clean-architecture/01-por-que-existe.md
       - Dependency Rule: volume-01-clean-architecture/02-dependency-rule.md
       - Use Cases: volume-01-clean-architecture/03-use-cases.md
+  - Volumen 2 - Domain-Driven Design:
+      - Introducción: volume-02-ddd/00-introduccion.md
+      - Entities y Value Objects: volume-02-ddd/01-entities-y-value-objects.md
+      - Aggregates: volume-02-ddd/02-aggregates.md
+      - Bounded Contexts: volume-02-ddd/03-bounded-contexts.md
+      - Domain Events: volume-02-ddd/04-domain-events.md
