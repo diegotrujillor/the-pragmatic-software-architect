@@ -1,0 +1,6 @@
+site/
+*.pdf
+*.epub
+.DS_Store
+__pycache__/
+.venv/

@@ -1,0 +1,45 @@
+site_name: The Pragmatic Software Architect
+site_description: From CRUD Developer to Software Architect in the AI Era (2026 Edition)
+docs_dir: volumes
+site_dir: site
+
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight
+  - toc:
+      permalink: true
+
+nav:
+  - Inicio: index.md
+  - Volumen 1 - Clean Architecture:
+      - Introducción: volume-01-clean-architecture/00-introduccion.md
+      - Por qué existe: volume-01-clean-architecture/01-por-que-existe.md
+      - Dependency Rule: volume-01-clean-architecture/02-dependency-rule.md
+      - Use Cases: volume-01-clean-architecture/03-use-cases.md

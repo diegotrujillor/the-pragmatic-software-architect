@@ -1,0 +1,28 @@
+name: Export PDF and EPUB
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc texlive-xetex
+      - name: Collect chapters in volume order
+        run: |
+          find volumes -name '*.md' ! -name 'index.md' | sort > chapters.txt
+      - name: Build PDF
+        run: |
+          pandoc --toc -o the-pragmatic-software-architect.pdf $(cat chapters.txt)
+      - name: Build EPUB
+        run: |
+          pandoc --toc -o the-pragmatic-software-architect.epub $(cat chapters.txt)
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            the-pragmatic-software-architect.pdf
+            the-pragmatic-software-architect.epub
