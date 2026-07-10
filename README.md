@@ -46,24 +46,19 @@ Secciones que ningún libro trae:
 
 ## Volúmenes
 
-1. Clean Architecture
-2. Domain-Driven Design
-3. Design Patterns
-4. Testing
-5. Microservices
+1. [Clean Architecture](volumes/volume-01-clean-architecture/00-introduccion.md)
+2. [Domain-Driven Design](volumes/volume-02-ddd/00-introduccion.md)
+3. [Design Patterns](volumes/volume-03-design-patterns/00-introduccion.md)
+4. [Testing](volumes/volume-04-testing/00-introduccion.md)
+5. [Microservices](volumes/volume-05-microservices/00-introduccion.md)
 
-Ver [`SUMMARY.md`](SUMMARY.md) para el índice detallado y
-[`REFERENCES.md`](REFERENCES.md) para el libro canónico detrás de cada
-volumen.
+Índice detallado en [`SUMMARY.md`](SUMMARY.md), libro canónico detrás de
+cada volumen en [`REFERENCES.md`](REFERENCES.md).
 
-## Flujo de trabajo del proyecto
+## Cómo avanza el proyecto
 
-- **Autor (contenido):** redacción, estructura, ejemplos, decisiones técnicas.
-- **Editor (repo):** estructura de carpetas, MkDocs Material, CI/CD, export a
-  PDF/EPUB, publicación en GitHub Pages, commits.
-
-Avanzamos un capítulo a la vez: se revisa, se ajusta, y solo entonces se pasa
-al siguiente. Nada de generar todo de una sola vez sin refinamiento.
+Un capítulo a la vez: se escribe, se revisa, se ajusta, y solo entonces se
+pasa al siguiente. Nada de generar todo de una sola vez sin refinamiento.
 
 ## Herramientas
 
