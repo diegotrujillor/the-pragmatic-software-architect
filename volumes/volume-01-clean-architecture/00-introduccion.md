@@ -1,4 +1,4 @@
-# 00. Introducción
+# Introducción
 
 Este libro no enseña a programar. Enseña a **decidir**.
 

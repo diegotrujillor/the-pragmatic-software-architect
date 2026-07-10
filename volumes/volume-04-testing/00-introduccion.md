@@ -1,4 +1,4 @@
-# 00. Introducción
+# Introducción
 
 ## Nivel 1 — ELI20
 
