@@ -27,4 +27,7 @@
 - [03. AAA y tests legibles](volumes/volume-04-testing/03-aaa-y-tests-legibles.md)
 
 ## Volumen 5 — Microservices
-- (pendiente)
+- [00. Introducción](volumes/volume-05-microservices/00-introduccion.md)
+- [01. Boundaries de servicio](volumes/volume-05-microservices/01-boundaries-de-servicio.md)
+- [02. Trade-offs reales](volumes/volume-05-microservices/02-trade-offs-reales.md)
+- [03. Cuándo NO usarlos](volumes/volume-05-microservices/03-cuando-no-usarlos.md)

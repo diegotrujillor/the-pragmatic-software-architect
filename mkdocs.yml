@@ -60,3 +60,8 @@ nav:
       - La pirámide de tests: volume-04-testing/01-piramide-de-tests.md
       - Mocks vs. Stubs: volume-04-testing/02-mocks-vs-stubs.md
       - AAA y tests legibles: volume-04-testing/03-aaa-y-tests-legibles.md
+  - Volumen 5 - Microservices:
+      - Introducción: volume-05-microservices/00-introduccion.md
+      - Boundaries de servicio: volume-05-microservices/01-boundaries-de-servicio.md
+      - Trade-offs reales: volume-05-microservices/02-trade-offs-reales.md
+      - Cuándo NO usarlos: volume-05-microservices/03-cuando-no-usarlos.md
