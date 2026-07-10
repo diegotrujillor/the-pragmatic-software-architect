@@ -5,6 +5,8 @@ repo_url: https://github.com/diegotrujillor/the-pragmatic-software-architect
 repo_name: the-pragmatic-software-architect
 docs_dir: volumes
 site_dir: site
+extra_css:
+  - stylesheets/extra.css
 
 theme:
   name: material
