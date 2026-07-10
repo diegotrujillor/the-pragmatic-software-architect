@@ -2,7 +2,7 @@
 
 **From CRUD Developer to Software Architect in the AI Era (2026 Edition)**
 
-📖 **[Leer online](https://diegotrujillor.github.io/the-pragmatic-software-architect/)**
+[![Docs](https://img.shields.io/badge/docs-live-success?logo=materialformkdocs&logoColor=white)](https://diegotrujillor.github.io/the-pragmatic-software-architect/)
 
 No es un resumen. Es el manual que me habría gustado tener cuando empecé a
 trabajar como ingeniero de software — con el impacto de la IA en el
