@@ -65,10 +65,30 @@ al siguiente. Nada de generar todo de una sola vez sin refinamiento.
 
 ## Herramientas
 
+Instalar dependencias (una vez):
+
 ```bash
-pip install mkdocs-material
-mkdocs serve   # preview local
-mkdocs build   # sitio estático
+python3 -m pip install -r requirements.txt
+```
+
+Levantar el servidor de preview local:
+
+```bash
+python3 -m mkdocs serve -a 127.0.0.1:8765
+# abre http://127.0.0.1:8765/
+```
+
+Detener el servidor: `Ctrl+C` en la terminal donde corre, o si quedó en
+background:
+
+```bash
+lsof -ti:8765 | xargs kill
+```
+
+Build estático (sin servir):
+
+```bash
+python3 -m mkdocs build
 ```
 
 Export a PDF/EPUB vía GitHub Actions (`.github/workflows/`) al hacer push a
